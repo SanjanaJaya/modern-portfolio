@@ -6396,9 +6396,18 @@ body.dark-theme .brand-padding .logos-slide .items:nth-child(odd) img {
 
 /*# sourceMappingURL=main.css.map */
 
-.bi-mouse {
-  display: none !important;
+[class^="bi-mouse"]::before,
+[class*="bi-mouse"]::before {
+    content: url("mouse.png");
+    display: inline-block;
+    width: 70px;    /* adjust to your PNG size */
+    height: 70px;
+    vertical-align: middle;
+    font-family: none !important; /* disable bootstrap icons */
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: none;
 }
+
 
 .bi-arrow-up-right {
   display: inline-block;
