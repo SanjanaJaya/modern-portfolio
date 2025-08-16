@@ -6395,3 +6395,40 @@ body.dark-theme .brand-padding .logos-slide .items:nth-child(odd) img {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.bi-mouse {
+  display: none !important;
+}
+
+.bi-arrow-up-right {
+  display: inline-block;
+  width: 50px; /* adjust size */
+  height: 50px;
+  background: url("arrow.png") no-repeat center center;
+  background-size: contain;
+  font-size: 0; /* hide the original icon glyph */
+  color: transparent;
+}
+
+.bi-arrow-up {
+  display: inline-block;      /* ensure it behaves like an inline icon */
+  width: 24px;                /* adjust size as needed */
+  height: 24px;
+  background: url("uparrow.png") no-repeat center center;
+  background-size: contain;
+  font-size: 0;               /* hide the default Bootstrap glyph */
+  color: transparent;         /* extra safety to hide icon */
+}
+
+ul.text-list li::before {
+    content: url("point.png");
+    position: absolute;
+    left: 0;
+    width: 25px;   /* adjust size */
+    height: 25px;
+    z-index: 3;
+    display: inline-block;
+    background: none;   /* ensure no white bg */
+    border-radius: 0;   /* remove circle */
+}
+
