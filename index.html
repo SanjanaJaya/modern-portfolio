@@ -608,12 +608,6 @@ I built this platform from scratch to create a seamless and secure marketplace f
 
 	// Update mobile menu links for smooth scrolling
 	document.addEventListener('DOMContentLoaded', function() {
-		// Clone the main menu to mobile menu
-		const mainMenu = document.querySelector('#mobile-menu .menu-list');
-		const mobileMenuContainer = document.querySelector('.mobile-menu');
-		
-		if (mainMenu && mobileMenuContainer) {
-			mobileMenuContainer.innerHTML = mainMenu.outerHTML;
 			
 			// Add smooth scroll to mobile menu links
 			mobileMenuContainer.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -632,10 +626,9 @@ I built this platform from scratch to create a seamless and secure marketplace f
 				});
 			});
 		}
-	});
+	);
 	</script>
 
 
 </body>
-
 </html>
