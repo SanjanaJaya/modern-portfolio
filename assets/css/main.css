@@ -6427,3 +6427,30 @@ ul.text-list li::before {
     border-radius: 0;   /* remove circle */
 }
 
+/* College Logos Section */
+.college-logos {
+    margin-top: 30px;
+    color: #fff; /* Ensures the title is visible on a black background */
+}
+
+.college-logos .logo-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.college-logos .logo-grid {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the logos */
+}
+
+.college-logos .logo-grid img {
+    max-height: 50px; /* Adjust as needed */
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-title {
+  color: white !important;
+}
