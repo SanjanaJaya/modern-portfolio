@@ -6446,7 +6446,7 @@ ul.text-list li::before {
 }
 
 .college-logos .logo-grid img {
-    max-height: 50px; /* Adjust as needed */
+    max-height: 75px; /* Adjust as needed */
     width: auto;
     object-fit: contain;
 }
