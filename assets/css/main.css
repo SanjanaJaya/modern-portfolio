@@ -6454,3 +6454,12 @@ ul.text-list li::before {
 .logo-title {
   color: white !important;
 }
+
+.bi-arrow-up-rights {
+  display: inline-block;
+  width: 40px;          /* adjust size */
+  height: 40px;
+  background: url("project.png") no-repeat center center;
+  background-size: contain;
+  font-size: 0;         /* hide original icon */
+}
