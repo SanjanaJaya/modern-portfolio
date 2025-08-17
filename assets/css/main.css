@@ -708,6 +708,8 @@ html.lenis {
   z-index: 11;
 }
 .main-menu ul {
+  display: flex;
+  justify-content: center;
   padding: 0;
   margin: 0;
 }
