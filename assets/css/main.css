@@ -6465,3 +6465,7 @@ ul.text-list li::before {
   background-size: contain;
   font-size: 0;         /* hide original icon */
 }
+
+video {
+    border-radius: 80px;
+}
