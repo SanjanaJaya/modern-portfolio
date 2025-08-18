@@ -6455,6 +6455,7 @@ ul.text-list li::before {
 
 .logo-title {
   color: white !important;
+  text-decoration: underline;
 }
 
 .bi-arrow-up-rights {
